@@ -1,0 +1,34 @@
+FROM debian:bookworm-slim
+
+# Evita prompts interativos
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Instala dependências e Tor
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        tor \
+        ca-certificates \
+        gosu && \
+    rm -rf /var/lib/apt/lists/*
+
+# Cria usuário tor
+RUN useradd -r -m -d /var/lib/tor -s /bin/false tor
+
+# Cria diretórios necessários
+RUN mkdir -p /var/lib/tor/hidden_service \
+             /etc/tor
+
+# Ajusta permissões
+RUN chown -R tor:tor /var/lib/tor && \
+    chmod -R 700 /var/lib/tor
+
+# Copia torrc customizado
+COPY torrc /etc/tor/torrc
+
+RUN chown -R tor:tor /var/lib/tor
+
+# Exponha a porta do serviço oculto (opcional)
+EXPOSE 9050 9051
+
+# Comando de inicialização
+CMD ["gosu", "tor", "tor", "-f", "/etc/tor/torrc"]

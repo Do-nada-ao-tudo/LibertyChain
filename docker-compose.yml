@@ -1,6 +1,28 @@
+version: '3.8'
+
 services:
   app:
     build:
       context: .
-    ports:
-      - '3000:8080'
+      dockerfile: Dockerfile.app
+    container_name: libertychain.app
+    networks:
+      - onionnet
+    expose:
+      - '8080'
+
+  tor:
+    build:
+      context: .
+      dockerfile: Dockerfile.tor
+    container_name: libertychain.tor
+    volumes:
+      - ./tor:/var/lib/tor
+      - ./torrc:/etc/tor/torrc
+    networks:
+      - onionnet
+    restart: unless-stopped
+
+networks:
+  onionnet:
+    driver: bridge

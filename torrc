@@ -1,0 +1,4 @@
+HiddenServiceDir /var/lib/tor/hidden_service/
+HiddenServiceVersion 3
+HiddenServicePort 80 libertychain.app:8080
+ClientOnionAuthDir /var/lib/tor/hidden_service/authorized_clients
