@@ -1,1 +1,4 @@
-exec < /dev/tty && git cz --hook || true
+if [ -t 0 ] && [ -e /dev/tty ]; then
+	exec < /dev/tty
+	git cz --hook || true
+fi

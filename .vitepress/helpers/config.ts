@@ -33,8 +33,7 @@ export class ConfigHelper {
 
   public static getSidebarConfig(locale: string): ISidebar | ISidebarItem[] {
     const params = this.getSidebarParams(locale);
-    const config: ISidebarItem =
-      Object.values(generateSidebar(params))[0] || {};
+    const config: ISidebar = generateSidebar(params) as ISidebar;
 
     function normalizeTextFields(obj: any) {
       if (Array.isArray(obj)) {
@@ -49,7 +48,7 @@ export class ConfigHelper {
 
     normalizeTextFields(config);
 
-    return [config];
+    return config;
   }
 
   private static getSidebarParams(locale: string): SidebarConfig {
@@ -59,7 +58,7 @@ export class ConfigHelper {
       documentRootPath: `src/${locale}`,
       scanStartPath: `/${sidebar}`,
       basePath: `/${locale}/`,
-      resolvePath: `/${locale}/`,
+      resolvePath: `/${locale}/${sidebar}/`,
 
       ...this.indexConfig,
       ...this.formatterConfig,
