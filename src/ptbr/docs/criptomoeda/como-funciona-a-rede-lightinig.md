@@ -6,7 +6,7 @@ e baratas. Ela funciona criando um sistema de canais de pagamento entre
 usuários, permitindo que as transações sejam realizadas fora da blockchain
 principal, mas com a segurança do Bitcoin.
 
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/5718766/397879985-b027ff2d-7ba3-4698-aba3-7f7dfc420e27.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260504%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260504T155912Z&X-Amz-Expires=300&X-Amz-Signature=23035b77b7a22a631f1070a34bd864c075af2128f9e094b144df9a787bf75319&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng)
+![image](https://github.com/Do-nada-ao-tudo/RepoStaticFile/raw/refs/heads/main/397879985-b027ff2d-7ba3-4698-aba3-7f7dfc420e27.png)
 
 ## 1. Criação de Canais de Pagamento
 

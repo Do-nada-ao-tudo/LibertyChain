@@ -1,4 +1,4 @@
-# O que é o Leviatã?
+# Leviatã
 
 O termo **Leviatã** é amplamente associado à obra do filósofo político **Thomas
 Hobbes** (1588–1679), intitulada _Leviatã_, publicada em 1651. Nessa obra,
@@ -6,7 +6,7 @@ Hobbes utiliza a metáfora do Leviatã, um monstro bíblico, para representar o
 **Estado** e a necessidade de uma autoridade central forte para garantir a ordem
 e a segurança em uma sociedade.
 
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/5718766/394040145-688567fe-5584-4e1c-9e8f-f185cb6eb24a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260504%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260504T155846Z&X-Amz-Expires=300&X-Amz-Signature=2068af584e824ccccb35381b0cebd1f93bccc8dbc748877c31459ffb15a753cb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng)
+![image](https://github.com/Do-nada-ao-tudo/RepoStaticFile/raw/refs/heads/main/394040145-688567fe-5584-4e1c-9e8f-f185cb6eb24a.png)
 
 ## Contexto e Significado
 

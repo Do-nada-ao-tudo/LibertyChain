@@ -5,7 +5,7 @@ seus próprios ativos digitais sem depender de terceiros, como exchanges ou
 bancos. Isso significa que o usuário é o único responsável pela segurança de
 suas chaves privadas, que são essenciais para acessar e movimentar suas
 criptomoedas.
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/5718766/394453334-b5df50d3-2043-4a45-91cf-bd43f4c9331b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260504%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260504T155903Z&X-Amz-Expires=300&X-Amz-Signature=042008d839042b7795e0e03c59a956a42086e4c93184440f14224461a7cf1a7b&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng)
+![image](https://github.com/Do-nada-ao-tudo/RepoStaticFile/raw/refs/heads/main/394453334-b5df50d3-2043-4a45-91cf-bd43f4c9331b.png)
 
 ## Como Funciona?
 

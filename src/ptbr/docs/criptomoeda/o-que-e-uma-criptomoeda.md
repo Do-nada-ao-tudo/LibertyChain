@@ -1,6 +1,6 @@
 # O que é uma Criptomoeda?
 
-![image](https://github-production-user-asset-6210df.s3.amazonaws.com/5718766/394022119-f351a332-d5ca-4663-8265-89ae8b2b084b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260504%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260504T155922Z&X-Amz-Expires=300&X-Amz-Signature=9843b12a10d9528615780cb60b0afd4c3d5c9b23065522faac898e6d30a36591&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng)
+![image](https://github.com/Do-nada-ao-tudo/RepoStaticFile/raw/refs/heads/main/394022119-f351a332-d5ca-4663-8265-89ae8b2b084b.png)
 
 Uma **criptomoeda** é uma forma de dinheiro digital ou virtual que utiliza
 tecnologias de criptografia para garantir a segurança das transações e controlar
